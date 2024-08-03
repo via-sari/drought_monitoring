@@ -345,7 +345,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
+    background: linear-gradient(rgba(201, 118, 1, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -465,7 +465,7 @@
     left: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: rgba(1, 95, 201, .2);
+    background: rgba(249, 246, 242, 0.3);
     transition: 0.5s;
     z-index: 1;
 }
@@ -564,7 +564,7 @@
 /*** FAQs Start ***/
 .faq-section .accordion .accordion-item .accordion-header .accordion-button {
     color: var(--bs-white);
-    background: rgba(1, 95, 201, .8);
+    background: rgba(201, 138, 1, 0.8);
     font-size: 18px;
 }
 
@@ -613,7 +613,8 @@
     left: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: rgba(218, 179, 121, 0.2);
+    /* background: rgba(218, 179, 121, 0.2); */
+    background: rgba(249, 246, 242, 0.3);
     transition: 0.5s;
     z-index: 1;
 }
@@ -697,7 +698,7 @@
 
 .team .team-item .team-title {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background: var(--bs-dark);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: 0.5s;
