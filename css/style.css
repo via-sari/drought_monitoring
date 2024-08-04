@@ -364,10 +364,20 @@
 
 
 /*** Feature Start ***/
+/* .feature .feature-item {
+    border-radius: 10px;
+    background: var(--bs-white);
+    transition: 0.5s;
+} */
+
 .feature .feature-item {
     border-radius: 10px;
     background: var(--bs-white);
     transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures all items stretch to the same height */
 }
 
 .feature .feature-item:hover {
